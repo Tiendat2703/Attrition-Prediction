@@ -1,5 +1,5 @@
 import pickle 
-from sklearn.preprocessing import StandardScaler, LabelEncoder,MinMaxScaler,OneHotEncoder
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 def models():
     with open('random_pca.pkl', 'rb') as file:
